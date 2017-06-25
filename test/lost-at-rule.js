@@ -39,9 +39,7 @@ describe('lost-at-rule', function() {
       '}',
 
       'div {\n' +
-      '  flex-grow: 0;\n' +
-      '  flex-shrink: 0;\n' +
-      '  flex-basis: calc(99.9% * 1/3 - (30px - 30px * 1/3));\n' +
+      '  flex: 0 0 calc(99.9% * 1/3 - (30px - 30px * 1/3));\n' +
       '  max-width: calc(99.9% * 1/3 - (30px - 30px * 1/3));\n' +
       '  width: calc(99.9% * 1/3 - (30px - 30px * 1/3));\n' +
       '}\n' +
